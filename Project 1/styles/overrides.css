@@ -1,0 +1,121 @@
+/* 
+	template.css
+	Copyright (c) 2017 by Nayezgi Debashu Woldekiros
+	All Rights Reserved
+	
+
+	A website assignment using Bootstrap 3.3.7
+	for course WEB125, HTML & CSS, at
+	
+HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+*/
+
+
+
+/* 	Tag Selector Section......................................*/
+
+
+
+body {
+	background-image: url("../images/tile.gif");
+	
+}
+
+
+
+/*	Class Selector Section...................................*/
+
+h1 {background-image: url("../images/rasta.jpg");
+	padding-top:25px;
+	text-align: center;
+	padding-bottom:45px;
+	background-repeat: repeat-x;
+	font-family: 'Tangerine', cursive;
+    font-family: 'Cinzel', serif;
+}
+
+.container-fluid {
+	text-align:left;
+	width: 90%;
+	Padding:1em;
+	font-family:Helvetica;
+	font-size:14px;
+	margin:0 0 9 9;
+	background-color: rgba(255,255,204,1.0);
+    width: 90%;
+    border-radius:10px;
+    box-shadow:2px 2px 2px black;
+   
+}
+form{ 
+	text-align: left;
+	width:100%;
+	padding:4px 15px;
+	box-sizing: border-box;
+
+	
+	
+}
+input[type= text],select{
+	
+	width:100%;
+	border-radius:5px; 
+	padding:4px 15px;
+	margin:10px;
+box-sizing: border-box;}
+imput.option{
+	color:red;
+	:12px;
+}
+	
+input [type=radio]{text-align: left;
+	border-radius:5px;
+	width:100%;
+	padding:4px 15px;
+box-sizing: border-box;}
+
+	
+input[type=password]{text-align: left;
+	border-radius:5px;
+	width:103%;
+	padding:4px 15px;
+box-sizing: border-box;}
+	
+	
+		
+input[type=email]{text-align: left;
+	border-radius:5px;
+	width:103%;
+	padding:4px 15px;
+box-sizing: border-box;}
+ 
+	videoWrapper{
+			position:relative;
+			padding-bottom:56.25%/*16.9*/
+			padding-top: 25px;
+			height: 0;
+	}
+	videoWrapper iframe{
+		posiyion:absolute;
+		top: 0;
+		left: 0;
+		width: 100%
+		height: 100%;
+	}
+
+	
+ img {width: 100%;
+ 
+	 height: auto;
+   
+
+}
+
+/* ID Selector Section...................................... */
+
+
+
+#unique {
+
+}

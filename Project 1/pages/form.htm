@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<!--template.htm
+	
+	Copyright (c) 2017 by Nayezgi Debashu woldekiros
+	All Rights Reserved
+	submited to Carole Knisely
+	A website assignment using Bootstrap 3.3.7
+	for course bus 101, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+	<title>Ethiopian  Traditional Resturant - form</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap v3.3.7 Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./template_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Bootstrap v3.3.7 Optional theme -->
+	<link rel="stylesheet" href="./template_files/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Bootstrap v3.3.7 Latest compiled and minified JavaScript -->
+	<script src="./template_files/bootstrap.min.js.download" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="../styles/template.css">
+	<link rel="stylesheet" href="../styles/overrides.css">
+	
+	<!-- The Bootstrap files in template_files folder is not working, That is why i Use this one---->
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="../styles/overrides.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Tangerine" rel="stylesheet">
+<link rel="stylesheet" href="overrides.css">
+
+
+</head>
+<body>
+	<div class="container-fluid"> <!-- Corresponds to <main> tag in HTML5 -->
+	
+		<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h1>Ethiopian Traditional Resturant</h1>
+				
+			</div>
+		</div> <!-- end row 1 -->
+	
+		<nav class="navbar navbar-default">
+			<div class="container-fluid"> <!-- nested -->
+				<div class="navbar-header">
+		<a class="navbar-brand" href="../index.htm">Ethiopian Resturant</a>
+				</div> <!-- end navbar-header" -->
+				<ul class="nav navbar-nav">
+					<li><a href="../index.htm">Home</a></li>
+					<li><a href="table.htm">Diner and Lunch menu</a></li>
+					<li><a href="ulist.htm">process</a></li>
+					<li class="active"><a href="form.htm">Resevation</a></li>
+                    <li><a href="olist.htm">About Us</a></li>
+					<li><a href="video.htm">Media</a></li>
+					<li><a href="gallary1.htm">Gallary</a></li>
+				</ul>
+			</div> <!-- end nested container-fluid -->
+		</nav>
+			<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				
+				<h4>Enjoy Healthy, Flavorful,Ethiopian Food</h4>
+				
+		        <p>
+                   Ethiopian Traditional Restaurant is an Ethiopian fast casual Restaurant that offers authentic, premium quality dishes,
+		           with special attention to vegetarians, 
+		           vegans, health conscious, and adventurous customers. Located in the heart of Hrrisburg,PA 
+		           Our restaurant serves food faster than dine-in restaurants, without compromising the quality and authenticity. 
+		           Our menu options cater to vegetarians, vegans and meat lovers alike at reasonable prices.
+		           Our dishes are freshly prepared quality spices imported from Ethiopia and locally sourced naturally grown ingredients,
+				   raised and grown without pesticides or antibiotics. We aim to introduce Ethiopian food to the broader public like other mainstream 
+				   food that anyone can come in and eat at any time. To that end, we offer injera in the traditional manner.
+				</p>
+				 
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column,like HTML5 article -->
+	
+	            <h4>Reservation</h4>
+				<div class="colgroup">
+			
+			<form action="mailto:ndw14979@hawkmail.hacc.edu" method="post" enctype="text/plain">
+				<fieldset>
+					<input type="text" name="Given name" placeholder="First Name">
+					
+				 
+				 
+					
+				    <input type="text" name="Last name" placeholder="Last Name">
+					<br>Gender
+					<input type="radio" name="sex" value="F"> female
+					<input type="radio" name="sex" value="M">Male
+					<input type="text" name="address" placeholder="street,city and zipcode">
+					No.of gust
+					<select >
+						<option value="1"> 1</option>
+						<option value="1"> 2</option>
+						<option value="1"> 3</option>
+						<option value="1"> 4</option>
+						<option value="1"> 5</option>
+						<option value="1"> 6</option>
+						<option value="1"> 7</option>
+						<option value="1"> 8</option>
+						<option value="1"> 9</option>
+						<option value="1"> 10</option>
+						<option> 
+						more></option>
+					</select>
+					<input type="text" name="phne" placeholder="phone" >
+					<br><br>
+					<input type="email" name="email" placeholder="email adress">
+					<br><br>
+				    <input type="password" name="password" placeholder="password">
+	
+					Comments<br>
+					<textarea name="Comments" rows="3" cols="42"></textarea>
+					<input type="submit" name="submit" value="send">
+					<input type="reset" name="reset" Value="reset">
+					
+					
+				
+					
+					
+				</fieldset>
+			
+			
+			
+			</form> 
+			   </div>
+			
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				
+				<h4>Our schedule</h4>
+				<h4>Traditional coffee </h4>
+				<p>	Our coffee service starts at 10:00 a.m. Monday through Friday. We source our coffee
+				from Counter Culture coffee, a certified-organic roaster with two decades of history working 
+				on coffee quality and coffee farmer sustainability. In addition to espresso, lattes and teas,
+				we also serve traditional Ethiopian coffee.</p>
+				<h4>Lunch and Diner </h4>
+				
+				<p>Lunch and dinner starts at 12:00pm -9:30pm, Sunday –Thursday and 12pm - 10pm, Friday - Saturday.
+				Enjoy our most popular option – Tibs, a grilled or stir-fried beef dish that is cooked right in front of you,
+				or the rest of our meat, vegetarian, and vegan options. Gluten free Injera is also available upon request.</p>
+				
+				
+				
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+				
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+					
+				<h3>Contact Us</h3>
+				<p>nayezgi Woldekiros</p>
+				<p>nayezgikiros@gmail.com</p>
+				<p>234-886-8888</p>	
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+
+
+</body>
+</html>
